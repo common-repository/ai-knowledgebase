@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-27 14:26+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/admin-functions.php:205
+msgid "Get your "
+msgstr ""
+
+#: includes/admin-functions.php:205
+#: templates/admin/template-parts/assistant-settings.php:21
+#: templates/admin/template-parts/openai-settings.php:9
+msgid "OpenAI API Key"
+msgstr ""
+
+#: includes/core-data.php:31 includes/loader.php:116
+#: templates/admin/template-parts/getting-started.php:10
+msgid "Getting Started"
+msgstr ""
+
+#: includes/core-data.php:32 includes/loader.php:124
+#: templates/admin/template-parts/getting-started.php:14
+msgid "Content Generator"
+msgstr ""
+
+#: includes/core-data.php:33 includes/loader.php:133
+#: templates/admin/template-parts/getting-started.php:24
+#: templates/admin/template-parts/getting-started.php:26
+msgid "Chat History"
+msgstr ""
+
+#: includes/core-data.php:34 includes/loader.php:142
+msgid "OpenAI Settings"
+msgstr ""
+
+#: includes/core-data.php:35 includes/loader.php:151
+#: templates/admin/template-parts/getting-started.php:13
+msgid "Assistant Settings"
+msgstr ""
+
+#: includes/core-data.php:38 includes/license-helper.php:289
+#: includes/license-helper.php:353 includes/loader.php:160
+#: includes/license-helper/license-helper.php:288
+#: includes/license-helper/license-helper.php:352
+msgid "License Activation"
+msgstr ""
+
+#: includes/license-helper.php:204
+#: includes/license-helper/license-helper.php:204
+msgid "Api Key"
+msgstr ""
+
+#: includes/license-helper.php:237
+#: includes/license-helper/license-helper.php:237
+msgid "Paste your api key below:"
+msgstr ""
+
+#: includes/license-helper.php:254
+#: includes/license-helper/license-helper.php:254
+msgid "Paste your api key here..."
+msgstr ""
+
+#: includes/license-helper.php:263
+#: includes/license-helper/license-helper.php:263
+msgid " is activated!"
+msgstr ""
+
+#: includes/license-helper.php:265
+#: includes/license-helper/license-helper.php:265
+msgid "You have activated "
+msgstr ""
+
+#: includes/license-helper.php:267
+#: includes/license-helper/license-helper.php:267
+msgid ""
+" which allows you to access all the customer benefits. If you do not wish to "
+"use "
+msgstr ""
+
+#: includes/license-helper.php:269
+#: includes/license-helper/license-helper.php:269
+msgid " on this WordPress site you can deactivate your license below.  "
+msgstr ""
+
+#: includes/license-helper.php:274
+#: includes/license-helper/license-helper.php:273
+msgid "Deactivate "
+msgstr ""
+
+#: includes/license-helper.php:303
+#: includes/license-helper/license-helper.php:302
+msgid "Are you stuck? Press"
+msgstr ""
+
+#: includes/license-helper.php:304
+#: includes/license-helper/license-helper.php:303
+msgid "here"
+msgstr ""
+
+#: includes/license-helper.php:305
+#: includes/license-helper/license-helper.php:304
+msgid "for a quick tutorial."
+msgstr ""
+
+#: includes/license-helper.php:315 includes/license-helper.php:355
+#: includes/license-helper/license-helper.php:314
+#: includes/license-helper/license-helper.php:354
+msgid "In order to receive all benefits of"
+msgstr ""
+
+#: includes/license-helper.php:316 includes/license-helper.php:356
+#: includes/license-helper/license-helper.php:315
+#: includes/license-helper/license-helper.php:355
+msgid " you need to activate your copy. By activating your copy of "
+msgstr ""
+
+#: includes/license-helper.php:317 includes/license-helper.php:357
+#: includes/license-helper/license-helper.php:316
+#: includes/license-helper/license-helper.php:356
+msgid " you will receive the following benefits:"
+msgstr ""
+
+#: includes/license-helper.php:323 includes/license-helper.php:361
+#: includes/license-helper/license-helper.php:322
+#: includes/license-helper/license-helper.php:360
+msgid "Activate "
+msgstr ""
+
+#: includes/license-helper.php:327 includes/license-helper.php:365
+#: includes/license-helper/license-helper.php:326
+#: includes/license-helper/license-helper.php:364
+msgid "Don't have a license yet?"
+msgstr ""
+
+#: includes/license-helper.php:329 includes/license-helper.php:367
+#: includes/license-helper/license-helper.php:328
+#: includes/license-helper/license-helper.php:366
+msgid "Purchase now"
+msgstr ""
+
+#: includes/loader.php:103 includes/loader.php:104 includes/loader.php:115
+msgid "AI KnowledgeBase"
+msgstr ""
+
+#: includes/loader.php:123
+msgid "AI KnowledgeBase - Content Generator"
+msgstr ""
+
+#: includes/loader.php:132
+msgid "AI KnowledgeBase - Chat History"
+msgstr ""
+
+#: includes/loader.php:141
+msgid "AI KnowledgeBase - OpenAI Settings"
+msgstr ""
+
+#: includes/loader.php:150
+msgid "AI KnowledgeBase - Assistant Settings"
+msgstr ""
+
+#: includes/loader.php:159
+msgid "AI KnowledgeBase - License Activation"
+msgstr ""
+
+#: includes/loader.php:189
+msgid "Your settings have been saved"
+msgstr ""
+
+#: includes/loader.php:204
+msgid "Your assistant settings have been saved"
+msgstr ""
+
+#: includes/loader.php:276 includes/loader.php:331
+msgid "Type your message here ..."
+msgstr ""
+
+#: includes/loader.php:282
+msgid "Submit"
+msgstr ""
+
+#: includes/loader.php:290 includes/loader.php:351
+msgid "You need to setup the OpenAI API Key and Assistant Settings first"
+msgstr ""
+
+#: includes/loader.php:319
+msgid "Ask me anything!"
+msgstr ""
+
+#: includes/loader.php:325
+msgid "Hello! How can I assist you today?"
+msgstr ""
+
+#: includes/loader.php:447
+msgid "Assistant successfully generated! Page will automatically reload."
+msgstr ""
+
+#: includes/loader.php:458
+msgid "Assistant successfully removed! Page will automatically reload."
+msgstr ""
+
+#: includes/loader.php:498
+msgid "Assistant successfully customized! Page will automatically reload."
+msgstr ""
+
+#: includes/loader.php:515
+msgid "Missing OpenAI API Key / Assistant Settings"
+msgstr ""
+
+#: includes/loader.php:544
+msgid "Error: "
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:20
+msgid "You'll need to set up the "
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:22
+msgid " first."
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:27
+msgid "Assistant "
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:29
+msgid " already generated with file "
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:31
+msgid "OpenAI File ID:"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:34
+msgid "Reset OpenAI Assistant"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:42
+msgid "Assistant Training Type"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:46
+msgid "Select Training Type ..."
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:48
+msgid "File Upload"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:58
+msgid "Assistant File"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:66
+msgid "Assistant Model"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:78
+msgid "Generate OpenAI Assistant"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:87
+msgid "Customize Assistant"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:89
+msgid "Shortcode Input Placeholder"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:95
+#: templates/admin/template-parts/assistant-settings.php:139
+msgid "Default: Type your message here ..."
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:98
+msgid "Shortcode Submit Button"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:104
+msgid "Default: Submit"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:106
+msgid "ChatBot Title"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:112
+msgid "Default: AI KnowledgeBase"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:115
+msgid "ChatBot Subtitle"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:121
+msgid "Default: Ask me anything!"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:124
+msgid "ChatBot Greet Message"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:130
+msgid "Default: Hello! How can I assist you today?"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:133
+msgid "ChatBot Input Placeholder"
+msgstr ""
+
+#: templates/admin/template-parts/assistant-settings.php:142
+msgid "Save Changes"
+msgstr ""
+
+#: templates/admin/template-parts/chat-history.php:27
+msgid "ID"
+msgstr ""
+
+#: templates/admin/template-parts/chat-history.php:28
+msgid "Assistant ID"
+msgstr ""
+
+#: templates/admin/template-parts/chat-history.php:29
+msgid "Question"
+msgstr ""
+
+#: templates/admin/template-parts/chat-history.php:30
+msgid "Answer"
+msgstr ""
+
+#: templates/admin/template-parts/chat-history.php:45
+msgid "No data found"
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:12
+msgid "Set up the "
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:12
+msgid "API Key"
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:12
+msgid " in order to interact with the OpenAI API."
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:13
+msgid "Go to the "
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:13
+msgid ""
+" tab, select a training method &amp; model for your assistant and then "
+"generate it."
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:14
+msgid "You can now make use of the "
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:14
+#: templates/admin/template-parts/getting-started.php:18
+msgid "AI Search Shortcode"
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:14
+msgid " or visit the "
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:14
+msgid " tab of the plugin to ask your newly trained AI about anything."
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:19
+msgid "Usage:"
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:19
+msgid " The shortcode can be added in any page, post or editor."
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:26
+msgid "In the "
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:26
+msgid ""
+" tab you'll have a table containing every search that was ever made with the "
+"plugin, together with its response and other details."
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:30
+msgid "Documentation &amp; Support"
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:32
+msgid "You can open a support ticket at "
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:33
+msgid "or read our "
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:33
+msgid "Online Documentation"
+msgstr ""
+
+#: templates/admin/template-parts/getting-started.php:34
+msgid ""
+"We recommend you to open a support ticket from our support page for awesome "
+"&amp; nice support experience."
+msgstr ""
+
+#: templates/admin/template-parts/openai-settings.php:15
+msgid "Save"
+msgstr ""

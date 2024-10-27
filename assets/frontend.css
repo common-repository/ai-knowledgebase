@@ -1,0 +1,270 @@
+.chat_session_result_typing_indicator {
+  width: 60px;
+  height: 30px;
+  position: relative;
+  z-index: 4;
+}
+.chat_session_result_typing_circle {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+  left: 15%;
+  transform-origin: 50%;
+  animation: typing-circle7124 0.5s alternate infinite ease;
+}
+@keyframes typing-circle7124 {
+  0% {
+    top: 20px;
+    height: 5px;
+    border-radius: 50px 50px 25px 25px;
+    transform: scaleX(1.7);
+  }
+
+  40% {
+    height: 8px;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+
+  100% {
+    top: 0%;
+  }
+}
+.chat_session_result_typing_circle:nth-child(2) {
+  left: 45%;
+  animation-delay: 0.2s;
+}
+.chat_session_result_typing_circle:nth-child(3) {
+  left: auto;
+  right: 15%;
+  animation-delay: 0.3s;
+}
+.chat_session_result_typing_shadow {
+  width: 5px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 30px;
+  transform-origin: 50%;
+  z-index: 3;
+  left: 15%;
+  filter: blur(1px);
+  animation: typing-shadow046 0.5s alternate infinite ease;
+}
+@keyframes typing-shadow046 {
+  0% {
+    transform: scaleX(1.5);
+  }
+
+  40% {
+    transform: scaleX(1);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: scaleX(0.2);
+    opacity: 0.4;
+  }
+}
+.chat_session_result_typing_shadow:nth-child(4) {
+  left: 45%;
+  animation-delay: 0.2s;
+}
+
+.chat_session_result_typing_shadow:nth-child(5) {
+  left: auto;
+  right: 15%;
+  animation-delay: 0.3s;
+}
+#aiknowledgebase_chat_session_main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#aiknowledgebase_chat_session_form {
+  width: -webkit-fill-available;
+}
+#aiknowledgebase_chat_session_form_inner {
+  display: flex;
+}
+#aiknowledgebase_chat_session_content {
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  padding: 25px 155px 25px 20px !important;
+  background: #ffffff;
+  box-shadow: #ccc 0 5px 16px;
+  width: -webkit-fill-available;
+}
+#aiknowledgebase_chat_session_content:focus,
+#chat_session_content:focus-visible {
+  outline: none;
+}
+#aiknowledgebase_chat_session_submit_holder {
+  display: flex;
+  align-items: center;
+}
+#aiknowledgebase_chat_session_submit {
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 12px 0 !important;
+  position: absolute;
+  right: 20px;
+  width: 115px;
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+#aiknowledgebase_chat_session_result_wrapper {
+  max-height: 60vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+  border-radius: 8px;
+  border: none;
+  padding: 25px 20px;
+  box-shadow: #ccc 0 5px 16px;
+  width: -webkit-fill-available;
+  background-color: white;
+}
+#aiknowledgebase_chat_session_request,
+#aiknowledgebase_chat_session_result {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+#aiknowledgebase_chat_session_result {
+  position: relative;
+  justify-content: flex-start;
+}
+#aiknowledgebase_chat_request_icon,
+#aiknowledgebase_chat_response_icon {
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: lightgray;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 35px;
+}
+#aiknowledgebase_chat_request_icon {
+  background-image: url("./images/basic-user-icon.svg");
+}
+#aiknowledgebase_chat_response_icon {
+  background-image: url("./images/admin-icon.svg");
+}
+#aiknowledgebase_chat_session_request h4,
+#aiknowledgebase_chat_session_result h4 {
+  max-width: 75%;
+  margin: 0;
+  background-color: lightgray;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#aiknowledgebase_chat_session_request h4 {
+  padding-left: 15px;
+  padding-right: 35px;
+  clip-path: polygon(0% 0%, calc(100% - 20px) 0, calc(100% - 20px) calc(50% - 10px), 100% 50%, calc(100% - 20px) calc(50% + 10px), calc(100% - 20px) 100%, 0 100%);
+}
+#aiknowledgebase_chat_session_result h4 {
+  padding-left: 35px;
+  padding-right: 15px;
+  clip-path: polygon(100% 100%, calc(0% + 20px) 100%, calc(0% + 20px) calc(50% + 10px), 0 50%, calc(0% + 20px) calc(50% - 10px), calc(0% + 20px) 0, 100% 0);
+}
+#aiknowledgebase_chat_session_result_skip {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #000000;
+  cursor: pointer;
+}
+#aiknowledgebase_chat_session_result_skip:hover {
+  color: #a1a1a1;
+}
+@media only screen and (max-width: 767px) {
+  #aiknowledgebase_chat_session_content {
+    padding: 15px 85px 15px 10px !important;
+    font-size: 12px;
+  }
+  #aiknowledgebase_chat_session_submit {
+    width: 65px;
+    right: 10px;
+    padding: 6px 0 !important;
+    font-size: 12px;
+  }
+  #aiknowledgebase_chat_session_result_wrapper {
+    padding: 15px 10px;
+  }
+  #aiknowledgebase_chat_session_request,
+  #aiknowledgebase_chat_session_result {
+    gap: 5px;
+  }
+  #aiknowledgebase_chat_session_request h4,
+  #aiknowledgebase_chat_session_result h4 {
+    max-width: 65%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 12px !important;
+    line-height: 1 !important;
+  }
+  #aiknowledgebase_chat_session_request h4 {
+    padding-left: 10px;
+    padding-right: 20px;
+    clip-path: polygon(0% 0%, calc(100% - 10px) 0, calc(100% - 10px) calc(50% - 5px), 100% 50%, calc(100% - 10px) calc(50% + 5px), calc(100% - 10px) 100%, 0 100%);
+  }
+  #aiknowledgebase_chat_session_result h4 {
+    padding-left: 20px;
+    padding-right: 10px;
+    clip-path: polygon(100% 100%, calc(0% + 10px) 100%, calc(0% + 10px) calc(50% + 5px), 0 50%, calc(0% + 10px) calc(50% - 5px), calc(0% + 10px) 0, 100% 0);
+  }
+  #aiknowledgebase_chat_request_icon,
+  #aiknowledgebase_chat_response_icon {
+    width: 1em;
+    height: 1em;
+    font-size: 30px;
+  }
+  .chat_session_result_typing_indicator {
+    width: 35px;
+  }
+  .chat_session_result_typing_circle {
+    width: 4px;
+    height: 4px;
+  }
+  .chat_session_result_typing_shadow {
+    width: 3px;
+    height: 2px;
+  }
+  @keyframes typing-circle7124 {
+    0% {
+      top: 20px;
+      height: 2px;
+      border-radius: 50px 50px 25px 25px;
+      transform: scaleX(1.7);
+    }
+
+    40% {
+      height: 4px;
+      border-radius: 50%;
+      transform: scaleX(1);
+    }
+
+    100% {
+      top: 0%;
+    }
+  }
+}
+
+
